@@ -1,0 +1,381 @@
+@charset "utf=8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    font-family: 'Pretendard-Regular';
+
+    background-color: black;
+}
+
+.header {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    height: 116px;
+    line-height: 120px;
+    margin: 0 auto;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: flex-start;
+    gap: 160px;
+}
+
+.header .inner .logo h1 { /* 로고 */
+    color: #fff;
+    font-size: 21px;
+}
+
+.header .inner .nav .gnb { /* 메뉴바 */
+    display: flex;
+    gap: 100px;
+}
+
+.header .inner .nav .gnb > li:hover .depth01 {
+    color: #8f8f8f;
+    transition: 0.5s;
+}
+
+.header .nav .gnb .depth01 {
+    color: #fff;
+    font-size: 12px;
+}
+
+.main_visual .image img {
+    width: 1900px;
+    height: 780px;
+    margin: 0 auto;
+}
+
+.section-01 {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    padding-top: 144px;
+}
+
+.section-01 .section-01-image {
+    padding-top: 24px;
+}
+
+.section-01 .section-01-image img {
+    width: 400px;
+    height: 400px;
+}
+
+.section-01 .main_text h1 {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.section-01 .main_text .sub_text .sub_text-1 h3 {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.section-01 .main_text .sub_text .sub_text-2 {
+    display: flex;
+    gap: 50px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.section-01 .main_text .sub_text .sub_group {
+    display: flex;
+    gap: 100px;
+}
+
+.section-01 .main_text .sub_text .sub_text-3 h3 {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+.section-01 .main_text .sub_text .sub_group-3 {
+    padding-top: 40px;
+}
+
+.section-01 .main_text .sub_text .sub_text-4 {
+    display: flex;
+    gap: 50px;
+    line-height: 26px;
+}
+
+.section-01 .main_text .sub_text .sub_text-4 h2 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.section-02 {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+
+    padding-top: 144px;
+}
+
+.section-02 .main_text h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.section-02 .main_text .main_text-2 h2 {
+    font-size: 20px;
+    color: #fff;
+
+    padding-top: 10px;
+}
+
+.section-02 .sub_group {
+    display: flex;
+    gap: 60px;
+}
+
+.section-02 .sub_group .sub_image img {
+    width: 48px;
+    height: 48px;
+}
+
+.section-02 .sub {
+    display: flex;
+    justify-content: space-between;
+    line-height: 150px;
+    padding-top: 85px;
+}
+
+.section-03 {
+    padding-top: 144px;
+}
+
+.section-03 .main_text {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+}
+
+.section-03 .main_text h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.section-03 .main_text .main_text-2 h2 {
+    color: #fff;
+    font-size: 20px;
+
+    padding-top: 10px;
+}
+
+.section-03 .Project {
+    padding-top: 85px;
+}
+
+.section-03 .Project .bg img {
+    width: 1903px;
+}
+
+.section-03 .Project .section-03-1 {
+    position: relative;
+}
+
+.section-03 .Project .group-1 {
+    display: flex;
+    gap: 140px;
+    position: absolute;
+    top: 78px;
+    left: 370px;
+}
+
+.section-03 .Project .group-1 .sub_text {
+    color: #fff;
+}
+
+.section-03 .Project .group-1 .sub_text h1 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.section-03 .Project .group-1 .sub_text h2 {
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.section-03 .Project .group-1 .sub_text p {
+    font-size: 16px;
+    padding-top: 28px;
+}
+
+.section-03 .Project .group-1 .sub_button {
+    padding-top: 42px;
+    display: flex;
+    gap: 10px;
+}
+
+.section-03 .Project .group-1 .sub_button .button-1 {
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.section-03 .Project .group-1 .sub_button .button-1 h1 {
+    font-size: 16px;
+}
+
+.section-03 .Project .group-1 .sub_button .button-2 {
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.section-03 .Project .group-1 .sub_button .button-2 h1 {
+    font-size: 16px;
+}
+
+.section-03 .more {
+    padding-top: 56px;
+    text-align: center;
+}
+
+.section-03 .more a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.section-04 {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+
+    padding-top: 144px;
+}
+
+.section-04 .main_text h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.section-04 .main_text .main_text-2 h2 {
+    font-size: 20px;
+    color: #fff;
+
+    padding-top: 10px;
+}
+
+.section-04 .view {
+    padding-top: 85px;
+}
+
+.section-04 .view .view_sub {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.section-04 .more {
+    padding-top: 56px;
+    text-align: center;
+}
+
+.section-04 .more a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.section-05 {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+
+    padding: 144px 0;
+}
+
+.section-05 .main_text h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.section-05 .main_text .main_text-2 h2 {
+    font-size: 20px;
+    color: #fff;
+
+    padding-top: 10px;
+}
+
+.section-05 .sub {
+    display: flex;
+    gap: 180px;
+}
+
+.section-05 .sub .barcord {
+    padding-top: 85px;
+}
+
+.section-05 .sub .barcord img {
+    width: 160px;
+    height: 160px;
+}
+
+.section-05 .sub .sub_text {
+    padding-top: 140px;
+    line-height: 50px;
+
+    display: flex;
+    gap: 100px;
+}
+
+.section-05 .sub .email {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
+.section-05 .sub .email h1 {
+    font-size: 20px;
+}
+
+.section-05 .sub .tel {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
+.section-05 .sub .tel h1 {
+    font-size: 20px;
+}
+
+.footer {
+    max-width: 1920px;
+    width: calc(100% - 748px);
+    margin: 0 auto;
+
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 14px;
+}
