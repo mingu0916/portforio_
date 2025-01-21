@@ -104,7 +104,8 @@ body {
     gap: 50px;
     line-height: 36px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .section-01 .main_text .sub_text .sub_group {
@@ -129,8 +130,9 @@ body {
 }
 
 .section-01 .main_text .sub_text .sub_text-4 h2 {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
+    font-weight: normal;
 }
 
 .section-02 {
@@ -200,11 +202,14 @@ body {
 
 .section-03 .Project .bg img {
     width: 1903px;
-    filter: opacity(30%);
+    filter: opacity(30%) blur(4px);
 }
 
 .section-03 .Project .section-03-1 {
     position: relative;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 .section-03 .Project .group-1 {
@@ -225,17 +230,17 @@ body {
 }
 
 .section-03 .Project .group-1 .sub_text h1 {
-    font-size: 32px;
-    padding-bottom: 10px;
+    font-size: 48px;
+    padding-bottom: 18px;
 }
 
 .section-03 .Project .group-1 .sub_text h2 {
-    font-size: 18px;
+    font-size: 22px;
     padding-bottom: 24px;
 }
 
 .section-03 .Project .group-1 .sub_text p {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 28px;
 }
 
