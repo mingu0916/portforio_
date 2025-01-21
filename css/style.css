@@ -171,7 +171,9 @@ body {
 }
 
 .section-03 {
-    padding-top: 144px;
+    padding-top: 100px;
+    background-color: #fff;
+    margin-top: 44px;
 }
 
 .section-03 .main_text {
@@ -181,12 +183,12 @@ body {
 }
 
 .section-03 .main_text h1 {
-    color: #fff;
+    color: #000;
     font-size: 40px;
 }
 
 .section-03 .main_text .main_text-2 h2 {
-    color: #fff;
+    color: #000;
     font-size: 20px;
 
     padding-top: 10px;
@@ -198,6 +200,7 @@ body {
 
 .section-03 .Project .bg img {
     width: 1903px;
+    filter: opacity(30%);
 }
 
 .section-03 .Project .section-03-1 {
@@ -212,8 +215,13 @@ body {
     left: 370px;
 }
 
+.section-03 .Project .group-1 .image img {
+    padding-top: 68px;
+}
+
 .section-03 .Project .group-1 .sub_text {
-    color: #fff;
+    color: #000;
+    padding-top: 180px;
 }
 
 .section-03 .Project .group-1 .sub_text h1 {
@@ -240,6 +248,8 @@ body {
 .section-03 .Project .group-1 .sub_button .button-1 {
     padding: 20px 30px;
     border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
 }
 
 .section-03 .Project .group-1 .sub_button .button-1 h1 {
@@ -255,6 +265,8 @@ body {
 .section-03 .Project .group-1 .sub_button .button-2 {
     padding: 20px 30px;
     border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
 }
 
 .section-03 .Project .group-1 .sub_button .button-2 h1 {
